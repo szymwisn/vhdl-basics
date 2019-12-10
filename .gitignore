@@ -8,8 +8,8 @@
 *.pnx
 *.vhd
 *.ini
+*.vm6
 *.rpt
-*.xise
 *.bgn
 *.bit
 *.bld
