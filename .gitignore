@@ -1,4 +1,14 @@
 # intermediate build files
+*.xise
+*.cmd
+*.ucf
+_lso
+*.tim
+*.tspec
+*.exe
+*.wdb
+*.log
+*.err
 *.xml
 *.xmsgs
 *.gyd
@@ -78,5 +88,6 @@ _ngo/
 _xmsgs/ 
 isim/
 temp/
+netgen/
 
 .directory
