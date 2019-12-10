@@ -1,0 +1,25 @@
+MDF Database:  version 1.0
+MDF_INFO | residue_mod4_moore | XC9572XL-10-PC44
+MACROCELL | 2 | 1 | currentState_FSM_FFd2
+ATTRIBUTES | 8815362 | 0
+OUTPUTMC | 1 | 1 | 1
+INPUTS | 1 | X
+INPUTP | 1 | 83
+EQ | 2 | 
+   Y<0>.D = X;
+   Y<0>.CLK = CLK;	// GCK
+GLOBALS | 1 | 2 | CLK
+
+MACROCELL | 1 | 1 | currentState_FSM_FFd1
+ATTRIBUTES | 8684290 | 0
+INPUTS | 1 | Y<0>
+INPUTMC | 1 | 2 | 1
+EQ | 2 | 
+   Y<1>.D = Y<0>;
+   Y<1>.CLK = CLK;	// GCK
+GLOBALS | 1 | 2 | CLK
+
+PIN | X | 64 | 0 | N/A | 83 | 1 | 2 | 1
+PIN | CLK | 4096 | 0 | N/A | 20 | 2 | 2 | 1 | 1 | 1
+PIN | Y<0> | 536871040 | 0 | N/A | 29
+PIN | Y<1> | 536871040 | 0 | N/A | 87
