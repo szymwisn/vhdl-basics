@@ -1,4 +1,15 @@
 # intermediate build files
+*.xml
+*.xmsgs
+*.gyd
+*.jed
+*.mfd
+*.nga
+*.pnx
+*.vhd
+*.ini
+*.rpt
+*.xise
 *.bgn
 *.bit
 *.bld
@@ -65,3 +76,5 @@ xlnx_auto_0_xdb/
 xst/
 _ngo/
 _xmsgs/ 
+isim/
+temp/
